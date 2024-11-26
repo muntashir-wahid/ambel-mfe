@@ -2,8 +2,6 @@ import { Link, NavLink } from "react-router-dom";
 
 import styles from "./TopNav.module.css";
 
-// import logo from "./../../assets/images/logo.png";
-
 const TopNav = () => {
   return (
     <header className={styles.header}>
