@@ -1,0 +1,15 @@
+.package-card {
+  @apply bg-white rounded-2xl shadow-lg border border-[#EAECF0] p-8;
+}
+
+.package-card-title {
+  @apply text-center text-lg font-semibold;
+}
+
+.package-list {
+  @apply space-y-4 text-[#475467] mt-8;
+}
+
+.package-list-item {
+  @apply flex items-center gap-3;
+}
