@@ -1,0 +1,23 @@
+.hero-wrapper {
+  @apply w-full bg-[#F5FFFA];
+}
+
+.hero-container {
+  @apply h-screen max-w-screen-lg px-6 pt-14 mx-auto;
+}
+
+.hero-content {
+  @apply text-center flex flex-col items-center gap-7;
+}
+
+.hero-heading {
+  @apply text-5xl font-bold text-[#307D33];
+}
+
+.hero-para {
+  @apply text-lg text-[#0089C9];
+}
+
+.hero-cta {
+  @apply flex items-center gap-7;
+}
