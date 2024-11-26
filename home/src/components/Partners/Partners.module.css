@@ -1,0 +1,23 @@
+.partners-container {
+  @apply w-full bg-[#FAFAFA];
+}
+
+.partners-content {
+  @apply container mx-auto px-4 py-16;
+}
+
+.partners-heading {
+  @apply text-[#475467] font-medium text-center mb-12;
+}
+
+.partners-card-container {
+  @apply flex items-center justify-between gap-4;
+}
+
+.partners-card {
+  @apply w-full;
+}
+
+.partners-img {
+  @apply w-24;
+}
