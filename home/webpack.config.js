@@ -69,6 +69,7 @@ module.exports = (_, argv) => ({
       },
       exposes: {
         "./Home": "./src/Home.jsx",
+        "./Features": "./src/components/Features/Features.jsx",
       },
       shared: {
         ...deps,

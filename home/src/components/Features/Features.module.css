@@ -1,0 +1,25 @@
+.features-container {
+  @apply w-full bg-[#19525A];
+}
+
+.features-content {
+  @apply container px-4 mx-auto py-12;
+}
+
+.features-header {
+  @apply text-center text-white;
+}
+
+.features-header-tag {
+  @apply font-semibold text-[#FDB022] mb-3;
+}
+.features-header-title {
+  @apply font-semibold text-4xl mb-5;
+}
+.features-para {
+  @apply text-lg;
+}
+
+.features-card-container {
+  @apply mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8;
+}
