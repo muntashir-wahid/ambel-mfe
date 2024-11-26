@@ -1,0 +1,15 @@
+.trail-container {
+  @apply container px-8 mx-auto py-8 bg-[#F5FFFD] mb-24 rounded-2xl flex justify-between text-[#19525A];
+}
+
+.trail-heading {
+  @apply text-3xl font-semibold mb-4;
+}
+
+.trail-heading {
+  @apply text-lg;
+}
+
+.trail-cta {
+  @apply flex items-center gap-3;
+}
