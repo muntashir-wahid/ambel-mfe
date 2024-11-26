@@ -1,7 +1,14 @@
-import styles from "./Home.module.css";
+import Hero from "./components/Hero/Hero";
+
+import TopNav from "host/TopNav";
 
 const Home = () => {
-  return <div className={styles.home}>Welcome to Home</div>;
+  return (
+    <div>
+      <TopNav />
+      <Hero />
+    </div>
+  );
 };
 
 export default Home;

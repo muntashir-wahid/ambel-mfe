@@ -1,0 +1,23 @@
+.header {
+  @apply w-full bg-white shadow-sm border-b;
+}
+
+.nav {
+  @apply container mx-auto px-4 py-5 flex justify-between items-center;
+}
+
+.nav-logo {
+  @apply h-7;
+}
+
+.nav-items {
+  @apply flex items-center;
+}
+
+.nav-link {
+  @apply px-4;
+}
+
+.nav-actions {
+  @apply flex items-center gap-2;
+}

@@ -68,7 +68,9 @@ module.exports = (_, argv) => ({
         home: "home@http://localhost:3001/remoteEntry.js",
         pricing: "pricing@http://localhost:3002/remoteEntry.js",
       },
-      exposes: {},
+      exposes: {
+        "./TopNav": "./src/components/TopNav/TopNav.jsx",
+      },
       shared: {
         ...deps,
         react: {
