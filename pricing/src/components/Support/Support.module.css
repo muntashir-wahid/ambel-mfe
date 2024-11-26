@@ -1,0 +1,19 @@
+.support-container {
+  @apply container px-4 mx-auto my-20;
+}
+
+.support-heading-tag {
+  @apply text-[#19525A] font-semibold mb-4;
+}
+
+.support-heading {
+  @apply text-3xl text-[#101828] font-semibold mb-4;
+}
+
+.support-para {
+  @apply text-lg text-[#475467];
+}
+
+.faq-container {
+  @apply flex flex-col gap-12 mt-16;
+}

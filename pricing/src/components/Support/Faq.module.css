@@ -1,0 +1,6 @@
+.faq-title {
+  @apply text-lg text-[#101828] font-semibold;
+}
+.faq-para {
+  @apply text-[#475467];
+}

@@ -5,6 +5,7 @@ import Features from "home/Features";
 import Hero from "./components/Hero/Hero";
 import Packages from "./components/Packages/Packages";
 import FreeTrial from "./components/FreeTrial/FreeTrial";
+import Support from "./components/Support/Support";
 
 const Pricing = () => {
   return (
@@ -14,6 +15,7 @@ const Pricing = () => {
       <Packages />
       <FreeTrial />
       <Features />
+      <Support />
     </div>
   );
 };
