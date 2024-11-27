@@ -22,7 +22,7 @@ const packages = [
     description: "10% from your customer payment",
   },
   {
-    id: "3",
+    id: "2",
     title: "Practitioner",
     plans: [
       "All booking options",

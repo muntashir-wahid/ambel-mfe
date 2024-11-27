@@ -1,6 +1,10 @@
 .faq-title {
-  @apply text-lg text-[#101828] font-semibold;
+  @apply text-lg text-[#101828] font-semibold flex items-center gap-3;
 }
 .faq-para {
-  @apply text-[#475467];
+  @apply text-[#475467] ml-10 mt-2;
+}
+
+.faq-icon {
+  @apply p-2 bg-[#EBFFEB] rounded-full inline-block text-center;
 }
