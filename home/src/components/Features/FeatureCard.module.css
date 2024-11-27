@@ -1,5 +1,5 @@
 .feature-card {
-  @apply text-white bg-[#25646C] py-8 px-5 rounded-[20px];
+  @apply text-white bg-[#25646C] py-8 px-5 rounded-[20px] hover:shadow hover:transition-all hover:shadow-white;
 }
 
 .feature-card-icons {
@@ -10,6 +10,6 @@
   @apply text-lg font-semibold mb-2;
 }
 
-.feature-card {
+.feature-card-para {
   @apply text-sm;
 }
