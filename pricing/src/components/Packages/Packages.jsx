@@ -1,5 +1,10 @@
-import PackageCard from "./PackageCard";
+import { SiStackblitz } from "react-icons/si";
+import { HiOutlineSquare3Stack3D } from "react-icons/hi2";
+import { TbStack } from "react-icons/tb";
+
 import styles from "./Packages.module.css";
+
+import PackageCard from "./PackageCard";
 
 const packages = [
   {
@@ -12,6 +17,9 @@ const packages = [
       "2 staff members are allowed",
       "Basic chat and email support",
     ],
+    icon: <SiStackblitz />,
+    price: 10,
+    description: "10% from your customer payment",
   },
   {
     id: "3",
@@ -23,6 +31,9 @@ const packages = [
       "3 staff members are allowed",
       "Unlimited email marketing",
     ],
+    icon: <TbStack />,
+    price: 39,
+    description: "1 practitioner license/monthly",
   },
   {
     id: "3",
@@ -34,6 +45,10 @@ const packages = [
       "Customizable 6 page website",
       "E-commerce functionality",
     ],
+
+    icon: <HiOutlineSquare3Stack3D />,
+    price: 49,
+    description: "Practitioner Number 10",
   },
 ];
 

@@ -2,8 +2,32 @@
   @apply bg-white rounded-2xl shadow-lg border border-[#EAECF0] p-8;
 }
 
+.package-icon {
+  @apply p-2 bg-[#E6E6E6] rounded-full inline-block text-center;
+}
+
+.pricing-card-header {
+  @apply flex flex-col gap-4 items-center;
+}
+
 .package-card-title {
-  @apply text-center text-lg font-semibold;
+  @apply text-center text-lg font-semibold text-[#1C455F];
+}
+
+.price {
+  @apply text-[#101828] font-semibold flex-[2px];
+}
+
+.price span:first-child {
+  @apply text-xl self-end;
+}
+
+.price span:last-child {
+  @apply text-5xl;
+}
+
+.pricing-description {
+  @apply text-[#475467];
 }
 
 .package-list {
@@ -12,4 +36,8 @@
 
 .package-list-item {
   @apply flex items-center gap-3;
+}
+
+.pricing-card-footer button {
+  @apply w-full bg-[#19525A] py-3 rounded-lg text-white mt-8 text-center font-semibold;
 }
