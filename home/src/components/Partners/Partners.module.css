@@ -7,11 +7,11 @@
 }
 
 .partners-heading {
-  @apply text-[#475467] font-medium text-center mb-12;
+  @apply text-[#475467] font-medium text-center mb-4;
 }
 
 .partners-card-container {
-  @apply flex items-center justify-between gap-4;
+  @apply flex items-center flex-wrap justify-evenly gap-4;
 }
 
 .partners-card {
@@ -19,5 +19,5 @@
 }
 
 .partners-img {
-  @apply w-24;
+  @apply w-28;
 }
