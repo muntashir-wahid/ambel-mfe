@@ -1,3 +1,5 @@
+import { RxExternalLink } from "react-icons/rx";
+
 import styles from "./Industries.module.css";
 
 const workingIndustries = [
@@ -59,17 +61,9 @@ const Industries = () => {
         </p>
       </header>
 
-      <div className={styles["industries-tab-container"]}>
-        {workingIndustries.map((item) => (
-          <button key={item.value} value={item.value}>
-            {item.label}
-          </button>
-        ))}
-      </div>
-
       <div className={styles["industry-card-container"]}>
         <article className={styles["industry-active-card"]}>
-          <div>
+          <div className={styles["industry-active-card-content"]}>
             <span>Doctor</span>
             <h4>Business solution for healthcare providers</h4>
             <p>
@@ -77,6 +71,10 @@ const Industries = () => {
               appointment, manage their patients, provide online prescriptions,
               overview of their med charts and automatically send reminders for
               treatments.
+            </p>
+
+            <p>
+              Learn More <RxExternalLink />
             </p>
           </div>
 
