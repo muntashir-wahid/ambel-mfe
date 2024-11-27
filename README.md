@@ -29,12 +29,10 @@
 
 ```plaintext
 Abmel/
-├── apps/
-│   ├── host/       # Host application
-│   ├── home/       # Home page application
-│   └── pricing/    # Pricing page application
-├── common/         # Shared components
-├── lighthouse/     # Lighthouse reports and performance optimization results
+├── host/       # Host application
+├── home/       # Home page application
+├── pricing/    # Pricing page application
+├── test-reports/     # Lighthouse reports and performance optimization results
 └── README.md       # Project documentation
 ```
 
