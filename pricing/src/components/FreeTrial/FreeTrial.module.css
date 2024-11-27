@@ -13,3 +13,14 @@
 .trail-cta {
   @apply flex items-center gap-3;
 }
+
+.trail-cta button {
+  @apply px-5 py-3 rounded-xl font-semibold;
+}
+
+.trail-cta button:first-child {
+  @apply text-[#344054] bg-white;
+}
+.trail-cta button:last-child {
+  @apply text-white bg-[#19525A];
+}
