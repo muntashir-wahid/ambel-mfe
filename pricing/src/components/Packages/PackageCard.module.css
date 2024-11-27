@@ -1,5 +1,5 @@
 .package-card {
-  @apply bg-white rounded-2xl shadow-lg border border-[#EAECF0] p-8;
+  @apply bg-white rounded-2xl md:shadow border border-[#EAECF0] p-8 hover:shadow-lg hover:transition-all;
 }
 
 .package-icon {

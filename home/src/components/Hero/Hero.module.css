@@ -1,5 +1,5 @@
 .hero-container {
-  @apply h-screen max-w-screen-lg px-6 pt-14 mx-auto;
+  @apply min-h-screen max-w-screen-lg px-6 pt-14 mx-auto;
 }
 
 .hero-content {
@@ -10,7 +10,7 @@
   @apply text-center flex flex-col items-center gap-7;
 }
 .hero-heading-main {
-  @apply text-5xl font-bold text-[#282828];
+  @apply text-5xl font-bold text-[#282828] leading-[1.1];
 }
 
 .hero-heading-main span {
@@ -26,11 +26,11 @@
 }
 
 .hero-banner {
-  @apply flex justify-center;
+  @apply flex justify-center mt-28;
 }
-.hero-banner img {
+/* .hero-banner img {
   @apply hidden lg:block lg:w-full h-[250px] text-center;
-}
+} */
 
 .hero-cta-btn-trail {
   @apply px-4 py-2 bg-[#19525A] text-white rounded-lg;

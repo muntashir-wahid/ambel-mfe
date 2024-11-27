@@ -1,5 +1,5 @@
 .feature-card {
-  @apply text-white bg-[#25646C] py-8 px-5 rounded-[20px] hover:shadow hover:transition-all hover:shadow-white;
+  @apply text-white bg-[#25646C] py-8 px-5 rounded-[20px] hover:drop-shadow-[0px_4px_5px_white] hover:transition-all border border-transparent hover:border-white;
 }
 
 .feature-card-icons {
