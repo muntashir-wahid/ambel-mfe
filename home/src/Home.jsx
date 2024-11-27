@@ -1,10 +1,10 @@
-import Hero from "./components/Hero/Hero";
-
-import TopNav from "host/TopNav";
-import Partners from "./components/Partners/Partners";
-import Features from "./components/Features/Features";
 import BookAppointments from "./components/BookAppointments/BookAppointments";
+import Features from "./components/Features/Features";
+import Footer from "host/Footer";
+import Hero from "./components/Hero/Hero";
+import Partners from "./components/Partners/Partners";
 import Services from "./components/Services/Services";
+import TopNav from "host/TopNav";
 
 const Home = () => {
   return (
@@ -15,11 +15,7 @@ const Home = () => {
       <Features />
       <BookAppointments />
       <Services />
-
-      {/* <TopNav />
-      <Hero />
-      <Partners />
-      <Features /> */}
+      <Footer />
     </div>
   );
 };

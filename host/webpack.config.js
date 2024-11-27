@@ -70,6 +70,7 @@ module.exports = (_, argv) => ({
       },
       exposes: {
         "./TopNav": "./src/components/TopNav/TopNav.jsx",
+        "./Footer": "./src/components/Footer/Footer.jsx",
       },
       shared: {
         ...deps,

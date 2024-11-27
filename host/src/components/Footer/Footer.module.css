@@ -1,0 +1,19 @@
+.footer {
+  @apply w-full bg-[#19525A] text-sm text-white;
+}
+
+.footer-content {
+  @apply container mx-auto px-4 py-4;
+}
+
+.social-container {
+  @apply flex items-center text-base gap-8 mb-12;
+}
+
+.social-container div {
+  @apply flex items-center gap-6;
+}
+
+.copy-right {
+  @apply flex items-center justify-between gap-5;
+}
