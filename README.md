@@ -17,11 +17,11 @@
 
 ## 🛠️ Tech Stack
 
-- **Framework:** [React.js](https://reactjs.org/) (No additional packages used)
+- **Framework:** [React.js](https://reactjs.org/), [React Router Dom](https://reactrouter.com/)
 - **Monorepo Tooling:** Managed as a monorepo for modular and scalable development.
 - **Module Federation:** Connecting apps via Webpack 5 module federation to ensure decoupled yet cohesive modules.
 - **CSS + JavaScript:** For styling and animations without third-party dependencies.
-- **Responsive Design:** Developed using custom CSS, adhering to modern design standards.
+- **Responsive Design:** Developed using custom TailwindCSS, adhering to modern design standards.
 
 ---
 
