@@ -11,7 +11,7 @@
 }
 
 .nav-items {
-  @apply flex items-center;
+  @apply items-center hidden md:flex;
 }
 
 .nav-link {
@@ -19,5 +19,5 @@
 }
 
 .nav-actions {
-  @apply flex items-center gap-2;
+  @apply hidden sm:flex items-center gap-2;
 }

@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Partners from "./components/Partners/Partners";
 import Services from "./components/Services/Services";
 import TopNav from "host/TopNav";
+import Industries from "./components/Industries/Industries";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <TopNav />
       <Hero />
       <Partners />
+      <Industries />
       <Features />
       <BookAppointments />
       <Services />
