@@ -25,15 +25,30 @@ const TopNav = () => {
             </Link>
           </li>
           <li>
-            <Link className={styles["nav-link"]} to="/pricing">
+            <Link className={styles["nav-link"]} to="/">
               Solutions
+            </Link>
+          </li>
+          <li>
+            <Link className={styles["nav-link"]} to="/">
+              Resources
+            </Link>
+          </li>
+          <li>
+            <Link className={styles["nav-link"]} to="/">
+              Find Professionals
+            </Link>
+          </li>
+          <li>
+            <Link className={styles["nav-link"]} to="/">
+              Help
             </Link>
           </li>
         </ul>
 
         <div className={styles["nav-actions"]}>
           <button>Log In</button>
-          <button>Sigh Up</button>
+          <button className={styles["btn-active"]}>Sign Up</button>
         </div>
       </nav>
     </header>

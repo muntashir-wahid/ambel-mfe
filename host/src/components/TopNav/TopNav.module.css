@@ -1,5 +1,5 @@
 .header {
-  @apply w-full bg-white shadow-sm border-b sticky top-0 z-10;
+  @apply w-full bg-white shadow-sm border-b sticky top-0 z-50;
 }
 
 .nav {
@@ -15,9 +15,13 @@
 }
 
 .nav-link {
-  @apply px-4;
+  @apply px-4 text-[#595959] font-medium hover:text-[#19525A] hover:transition-all;
 }
 
 .nav-actions {
-  @apply hidden sm:flex items-center gap-2;
+  @apply hidden sm:flex items-center gap-3 text-[#595959];
+}
+
+.btn-active {
+  @apply bg-[#0089C9] text-white px-3 py-1 rounded-md;
 }
