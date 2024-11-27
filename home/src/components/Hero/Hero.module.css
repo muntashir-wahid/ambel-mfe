@@ -3,13 +3,39 @@
 }
 
 .hero-content {
-  @apply text-center flex flex-col items-center gap-7;
+  @apply pb-14;
 }
 
-.hero-heading {
-  @apply text-5xl font-bold;
+.hero-header {
+  @apply text-center flex flex-col items-center gap-7;
+}
+.hero-heading-main {
+  @apply text-5xl font-bold text-[#282828];
+}
+
+.hero-heading-main span {
+  @apply text-[#FF2323];
+}
+
+.hero-para-main {
+  @apply text-[#667085];
 }
 
 .hero-cta {
   @apply flex items-center gap-7;
+}
+
+.hero-banner {
+  @apply flex justify-center;
+}
+.hero-banner img {
+  @apply hidden lg:block lg:w-full h-[250px] text-center;
+}
+
+.hero-cta-btn-trail {
+  @apply px-4 py-2 bg-[#19525A] text-white rounded-lg;
+}
+
+.hero-cta-btn-find {
+  @apply px-4 py-2 flex items-center gap-1 bg-[#F87316] text-white rounded-lg;
 }
