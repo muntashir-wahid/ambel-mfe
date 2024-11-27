@@ -84,7 +84,7 @@ const Industries = () => {
         </article>
 
         {industries.map((industry) => (
-          <figure key={industries.id} className={styles["industry-img-card"]}>
+          <figure key={industry.id} className={styles["industry-img-card"]}>
             <img src={industry.imgSrc} />
           </figure>
         ))}

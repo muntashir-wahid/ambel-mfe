@@ -27,7 +27,7 @@ const partners = [
       "https://s3-alpha-sig.figma.com/img/f912/412e/39e5eaae575b15d4538e298cb5658252?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pFYwC8HIuH1oqzX-JpyUqRqBNxRfZ8aSZd1R0Gck-PLlX0dFpqlrOyjwHEIZQjPHATa2YNGrbEmWJM0JXfDju2Vc3wGEIdC25F3v9uK7iGZ3f84HA00UfJTErO3cRMb5GBGLKiElNR-jTAFVS3DHMyxpFH~EqLh0NvXfYfP2f3jjCLTB0x9QV-I7KZI1DQzdv5zczSyKbkWVfb7VH-q8-lV6b-XzOpemnSITqicgDbTisjPw0~Ku1jJo01a2JXqym~c8LO-xB5GbAAuIhhQSyd1pqXSQZ3i9y30m3QubcNGEwC~KEcRZZ6VxJ-T4NbrBmD8kQkKFiM2lVAALE~I3WA__",
   },
   {
-    id: "5",
+    id: "6",
     imgUrl:
       "https://s3-alpha-sig.figma.com/img/326d/457b/3ead632fc76b0ee3bd0929a54e32ce51?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NlcbC53nvS235j1uKf6oKDQzfYiMIJaCIHMhqhnsCE5dkd4slaZn5UbEMZqSDpEa0suRJOrndOWgSE3Z1lVFIA1DObLBYIUBUsx894PQRw6d3jBx8PeSJPImo-HqR67kV4cOzNqfOAvTNhEaQO8hAdD4DU1LVVAOxjFfrU5nYGGp3Ii2bdU93xzZdnCwS~2GU7ZIEgr~B5eZbjzdIlVTmVEMoB6l9Ox~yOor9r-PpHkJDOvHYWaqEqMx~lKYfrKKQqe4zaIfvVkVdgA3V0RhCAo7Md23vqw1QcaDyS9kKoYSMOUzv5You59vyELlMi77xfeF8Y1UhTk0Pe~SvW-Jlw__",
   },

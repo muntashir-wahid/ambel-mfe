@@ -3,7 +3,19 @@
 }
 
 .services-card {
-  @apply px-11 py-14 sticky top-24 rounded-[32px] shadow-md flex;
+  @apply px-11 py-14 sticky top-24 rounded-[32px] shadow-md flex items-center gap-14;
+}
+
+.services-card div {
+  @apply w-1/2;
+}
+
+.services-card figure {
+  @apply w-1/2;
+}
+
+.services-card figure img {
+  @apply w-full max-h-[360px] object-cover rounded-3xl;
 }
 
 .services-card-title {
