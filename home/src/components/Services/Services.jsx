@@ -45,26 +45,50 @@ const services = [
   },
 ];
 
+const replaces = [
+  "Jane",
+  "Calendly",
+  "Cal.com",
+  "acuity",
+  "Square appointment",
+  "Simplybook.me",
+  "Zenoti",
+  "Appointy",
+  "Set More",
+  "Honey Book",
+];
+
 const Services = () => {
   return (
-    <div className={styles["services-container"]}>
-      {services.map((service) => (
-        <div
-          style={{ backgroundColor: service.color, color: service.textColor }}
-          className={styles["services-card"]}
-          key={service.id}
-        >
-          <div>
-            <h5 className={styles["services-card-title"]}>{service.title}</h5>
-            <p className={styles["services-card-para"]}>
-              {service.description}
-            </p>
+    <div>
+      <div className={styles["services-container"]}>
+        {services.map((service) => (
+          <div
+            style={{ backgroundColor: service.color, color: service.textColor }}
+            className={styles["services-card"]}
+            key={service.id}
+          >
+            <div>
+              <h5 className={styles["services-card-title"]}>{service.title}</h5>
+              <p className={styles["services-card-para"]}>
+                {service.description}
+              </p>
+            </div>
+            <figure>
+              <img src={service.imgSrc} />
+            </figure>
           </div>
-          <figure>
-            <img src={service.imgSrc} />
-          </figure>
-        </div>
-      ))}
+        ))}
+      </div>
+
+      <div className={styles["replace-container"]}>
+        <span>Replace:</span>
+        {replaces.map((item) => (
+          <span key={item} className={styles["replace-badge"]}>
+            {item}
+          </span>
+        ))}
+      </div>
     </div>
   );
 };

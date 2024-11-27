@@ -9,3 +9,11 @@
 .services-card-title {
   @apply text-4xl mb-8 font-semibold;
 }
+
+.replace-container {
+  @apply flex items-center gap-4 flex-wrap mt-6 container mx-auto px-8 mb-14 text-[#101828] text-lg;
+}
+
+.replace-badge {
+  @apply bg-[#F0F9FF] px-2 py-1 rounded-2xl text-[#016DA3] text-sm;
+}
