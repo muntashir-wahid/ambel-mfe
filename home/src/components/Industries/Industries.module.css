@@ -16,6 +16,22 @@
   @apply text-lg text-[#667085];
 }
 
+.industries-tab-wrapper {
+  @apply flex items-center justify-center mt-14 mb-16;
+}
+
+.industries-tab-container {
+  @apply rounded-full border p-[2px];
+}
+
+.industries-tab-container button {
+  @apply px-6 py-2 text-[#344054] font-semibold;
+}
+
+.industries-tab-container button:first-child {
+  @apply px-6 py-2 bg-[#19525A] text-white rounded-full;
+}
+
 .industry-card-container {
   @apply grid grid-cols-1 md:grid-cols-3 lg:grid-cols-10 gap-5;
 }

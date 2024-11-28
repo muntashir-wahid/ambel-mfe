@@ -61,6 +61,16 @@ const Industries = () => {
         </p>
       </header>
 
+      <div className={styles["industries-tab-wrapper"]}>
+        <div className={styles["industries-tab-container"]}>
+          {workingIndustries.map((item) => (
+            <button key={item.value} value={item.value}>
+              {item.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
       <div className={styles["industry-card-container"]}>
         <article className={styles["industry-active-card"]}>
           <div className={styles["industry-active-card-content"]}>

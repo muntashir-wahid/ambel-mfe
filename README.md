@@ -94,10 +94,12 @@ Follow these steps to set up and run the Abmel project locally:
    npm start
    ```
 
-### Running the Applications
+### Project Screenshots
 
-The project consists of three module federation apps: **Host**, **Home**, and **Pricing**. Each app runs on a specific port:
+1. Home Page
 
-- **Host App**: [http://localhost:3000](http://localhost:3000)
-- **Home App**: [http://localhost:3001](http://localhost:3001)
-- **Pricing App**: [http://localhost:3002](http://localhost:3002)
+![alt text](/test-reports/home-page-screenshot.png)
+
+2. Pricing Page
+
+![alt text](/test-reports/pricing-page-screenshot.png)
