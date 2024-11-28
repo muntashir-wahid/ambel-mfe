@@ -1,3 +1,7 @@
+.services-wrapper {
+  @apply container mx-auto px-6;
+}
+
 .services-container {
   @apply container mx-auto py-10 flex flex-col gap-10;
 }
@@ -28,4 +32,7 @@
 
 .replace-badge {
   @apply bg-[#F0F9FF] px-2 py-1 rounded-2xl text-[#016DA3] text-sm;
+}
+.service-details-link {
+  @apply text-sm flex gap-2 mt-8 items-center;
 }

@@ -85,7 +85,7 @@ const Industries = () => {
 
         {industries.map((industry) => (
           <figure key={industry.id} className={styles["industry-img-card"]}>
-            <img src={industry.imgSrc} />
+            <img src={industry.imgSrc} loading="lazy" />
           </figure>
         ))}
       </div>

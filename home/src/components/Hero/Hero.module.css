@@ -22,15 +22,12 @@
 }
 
 .hero-cta {
-  @apply flex items-center gap-7;
+  @apply flex flex-col sm:flex-row md:items-center gap-4 md:gap-7;
 }
 
 .hero-banner {
-  @apply flex justify-center mt-28;
+  @apply flex justify-center mt-16 md:mt-28;
 }
-/* .hero-banner img {
-  @apply hidden lg:block lg:w-full h-[250px] text-center;
-} */
 
 .hero-cta-btn-trail {
   @apply px-4 py-2 bg-[#19525A] text-white rounded-lg;

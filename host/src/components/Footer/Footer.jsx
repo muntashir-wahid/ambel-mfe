@@ -25,10 +25,7 @@ const Footer = () => {
         </div>
 
         <div className={styles["copy-right"]}>
-          <p>
-            Copyright © {new Date().getFullYear()} Muntashir Wahid. All rights
-            reserved.
-          </p>
+          <p>Copyright © {new Date().getFullYear()}. All rights reserved.</p>
 
           <ul className={styles["copy-right"]}>
             <li>Privacy Policy</li>

@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { HiOutlineExternalLink } from "react-icons/hi";
+
 import styles from "./Services.module.css";
 
 const services = [
@@ -112,7 +115,7 @@ const replaces = [
 
 const Services = () => {
   return (
-    <div>
+    <div className={styles["services-wrapper"]}>
       <div className={styles["services-container"]}>
         {services.map((service) => (
           <div
@@ -125,6 +128,10 @@ const Services = () => {
               <p className={styles["services-card-para"]}>
                 {service.description}
               </p>
+              <Link className={styles["service-details-link"]} to="#">
+                <span>Learn More</span>
+                <HiOutlineExternalLink size={18} />
+              </Link>
             </div>
             <figure>
               <img src={service.imgSrc} />
