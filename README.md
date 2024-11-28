@@ -1,16 +1,15 @@
 # Abmel: Monorepo Front-End Application
 
-**Abmel** is a lightweight, high-quality front-end application built as a monorepo, demonstrating expertise in creating modular, scalable, and interactive websites using **React.js** and **CSS** with **module federation**. This application adheres to strict requirements, avoiding external packages while delivering a smooth, responsive experience optimized for performance.
+**Abmel** is a lightweight, high-quality front-end application built as a monorepo, demonstrating expertise in creating modular, scalable, and interactive websites using **React.js** and **TailwindCSS** with **module federation**. This application adheres to strict requirements, avoiding external packages while delivering a smooth, responsive experience optimized for performance.
 
 ## 🌟 Features
 
 - **Modular Architecture:** Implemented using **module federation** with three distinct apps:
-  1. **Host App**: Serves as the base application, connecting the other modules.
+  1. **Host App**: Serves as the base/shell application, connecting the other modules.
   2. **Home App**: Contains the interactive design for the homepage.
-  3. **Pricing App**: Implements the pricing page with animations.
-- **Interactive Animations:** CSS and raw JavaScript were used to create seamless, interactive animations.
+  3. **Pricing App**: Implements the pricing page.
+- **Interactive Animations:** TailwindCSS and raw JavaScript were used to create seamless, interactive animations.
 - **Mobile-Responsive Design:** Designed with a mobile-first approach, ensuring usability across devices.
-- **Performance Optimized:** Fully optimized for web quality using **Lighthouse**, meeting performance, accessibility, and SEO benchmarks.
 - **Reusable Components:** Common components shared across modules for consistency and maintainability.
 
 ---
@@ -67,7 +66,7 @@ Follow these steps to set up and run the Abmel project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/abmel.git
+   git clone https://github.com/muntashir-wahid/ambel-mfe
    cd abmel
    ```
 
