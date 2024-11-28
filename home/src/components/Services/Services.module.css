@@ -23,7 +23,7 @@
 }
 
 .services-card-title {
-  @apply text-4xl mb-8 font-semibold;
+  @apply text-2xl md:text-4xl mb-8 font-semibold;
 }
 
 .replace-container {
